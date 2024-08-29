@@ -11,7 +11,7 @@ model = joblib.load('ann_model.pkl')
 scaler = joblib.load('scaler.pkl')
 
 # 设置页面标题
-st.title('基于血常规的ANN模型对甲流患儿的快速预测')
+st.title('基于ANN模型对疑似甲流患儿的快速诊断')
 
 # 创建输入表单
 st.sidebar.header('输入血常规')
